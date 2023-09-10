@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'bcmessage_Example' do
+  pod 'bcmessage', :path => '../'
+
+  target 'bcmessage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
