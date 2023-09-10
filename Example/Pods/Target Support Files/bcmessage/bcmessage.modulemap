@@ -1,0 +1,6 @@
+framework module bcmessage {
+  umbrella header "bcmessage-umbrella.h"
+
+  export *
+  module * { export * }
+}
