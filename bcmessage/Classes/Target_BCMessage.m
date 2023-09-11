@@ -6,15 +6,23 @@
 //
 
 #import "Target_BCMessage.h"
+#import "BCMessageConfig.h"
+#import "BCMessageController.h"
 
 @implementation Target_BCMessage
 
-- (UIViewController *)getMessageHome {
+- (void)Action_messageTest:(NSDictionary *)params {
+    NSLog(@"Target_BCMessage-messageTest");
+}
+
+- (UIViewController *)Action_getMessageHome:(NSDictionary *)params {
     return BCMessageController.new;
 }
 
-- (BCConfig *)getConfig {
-    return [BCConfig shareInstance];
+- (void)Action_initWithConfig:(NSDictionary *)config {
+    if (config) {
+        [BCMessageConfig shareInstance].config = config.mutableCopy;
+    }
 }
 
 @end

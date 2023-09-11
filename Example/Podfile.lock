@@ -1,16 +1,23 @@
 PODS:
-  - bcmessage (0.1.0)
+  - bcmessage (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - bcmessage (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   bcmessage:
     :path: "../"
 
 SPEC CHECKSUMS:
-  bcmessage: c5a40c0e4181f52473e496a1d0b33bd74e0e2a44
+  bcmessage: 78c851ab8f5f2769acff2d303fc6640d015795f5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 6d6603339418f7404b1fe65e72acecbbc27b8080
+PODFILE CHECKSUM: 1ca24e45d20e7193f081f63fc73682f5ad138e8e
 
 COCOAPODS: 1.12.1

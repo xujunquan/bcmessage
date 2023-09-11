@@ -6,16 +6,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BCConfig.h"
-#import "BCMessageController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Target_BCMessage : NSObject
 
-- (UIViewController *)getMessageHome;
+- (void)Action_messageTest:(NSDictionary *)params;
 
-- (BCConfig *)getConfig;
+- (UIViewController *)Action_getMessageHome:(NSDictionary *)params;
+
+- (void)Action_initWithConfig:(NSDictionary *)config;
 
 @end
 

@@ -23,7 +23,6 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		77AB6852639649F407C1167F /* Pods_bcmessage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1195D57989442D48DA693B2 /* Pods_bcmessage_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A44B30197AE8132AF3A16828 /* Pods_bcmessage_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1D57B09E2333E7367DF775 /* Pods_bcmessage_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		138DE8D0A210C47AD5873E77 /* Pods-bcmessage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bcmessage_Tests.debug.xcconfig"; path = "Target Support Files/Pods-bcmessage_Tests/Pods-bcmessage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		224F1CD4571B8CF49A433E2A /* bcmessage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = bcmessage.podspec; path = ../bcmessage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		45B417AEFE61ACCBA7258AE6 /* Pods-bcmessage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bcmessage_Example.release.xcconfig"; path = "Target Support Files/Pods-bcmessage_Example/Pods-bcmessage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* bcmessage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bcmessage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,8 +60,6 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1195D57989442D48DA693B2 /* Pods_bcmessage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bcmessage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE1D57B09E2333E7367DF775 /* Pods_bcmessage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bcmessage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFA8B9C2348A5A133899B97B /* Pods-bcmessage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bcmessage_Tests.release.xcconfig"; path = "Target Support Files/Pods-bcmessage_Tests/Pods-bcmessage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E244C4273BA1FF747C8A57FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ED9733F9E92DBF2609201ED8 /* Pods-bcmessage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bcmessage_Example.debug.xcconfig"; path = "Target Support Files/Pods-bcmessage_Example/Pods-bcmessage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F58CF3738FBED3FC4E24D259 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -88,7 +84,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				A44B30197AE8132AF3A16828 /* Pods_bcmessage_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +95,6 @@
 			children = (
 				ED9733F9E92DBF2609201ED8 /* Pods-bcmessage_Example.debug.xcconfig */,
 				45B417AEFE61ACCBA7258AE6 /* Pods-bcmessage_Example.release.xcconfig */,
-				138DE8D0A210C47AD5873E77 /* Pods-bcmessage_Tests.debug.xcconfig */,
-				CFA8B9C2348A5A133899B97B /* Pods-bcmessage_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -135,7 +128,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				B1195D57989442D48DA693B2 /* Pods_bcmessage_Example.framework */,
-				BE1D57B09E2333E7367DF775 /* Pods_bcmessage_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -222,7 +214,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "bcmessage_Tests" */;
 			buildPhases = (
-				51D6880CF7986E39CA75DBA0 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -295,28 +286,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		51D6880CF7986E39CA75DBA0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-bcmessage_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7DE20E9FC9299DEB2634DE98 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,10 +293,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-bcmessage_Example/Pods-bcmessage_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/bcmessage/bcmessage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/bcmessage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,7 +494,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 138DE8D0A210C47AD5873E77 /* Pods-bcmessage_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +518,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFA8B9C2348A5A133899B97B /* Pods-bcmessage_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

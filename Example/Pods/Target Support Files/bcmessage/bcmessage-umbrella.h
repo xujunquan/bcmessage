@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "BCConfig.h"
+#import "BCMessageController.h"
+#import "Target_BCMessage.h"
 
 FOUNDATION_EXPORT double bcmessageVersionNumber;
 FOUNDATION_EXPORT const unsigned char bcmessageVersionString[];
